@@ -13,7 +13,7 @@ $color-ppal: rgb(205, 230, 205);
     background-color: $color-ppal; 
     flex-wrap: wrap;
     min-height: 20vh;
-    min-width: 100vh;
+    
   
     img{
         width: 140px;
@@ -34,6 +34,7 @@ $color-ppal: rgb(205, 230, 205);
 
      ul{
         display: flex;
+        direction: column;
         list-style: none;
         width: 800px;
         justify-content: space-evenly;
@@ -56,7 +57,7 @@ $color-ppal: rgb(205, 230, 205);
     justify-content: center;
     align-items: center;
     min-height: 10vh;
-    min-width: 100vh;
+  
     margin-top: 15px;
     padding: 15px;
 
@@ -71,7 +72,7 @@ $color-ppal: rgb(205, 230, 205);
 
 .main{
     min-height: 70vh;
-    min-width: 100vh;
+   
 }
 
 .main.index{
@@ -286,7 +287,7 @@ h2{
     background-image: url(../recursos/foto-contactanos.webp);
     background-position: center;
     min-height: 70vh;
-    min-width: 100vh;
+    
     padding: 50px;
     margin: 50px;
       
@@ -319,7 +320,7 @@ h2{
 .main-quienes-somos{
     background-image: url(../recursos/foto-quienes-somos.webp);
     min-height: 70vh;
-    min-width: 100vh;
+   
     font-family: 'Courier New', Courier, monospace;
     color: black;
     display: grid;
@@ -336,6 +337,9 @@ h2{
     }
     .nav ul{
         width:100px;
+    }
+    .footer{
+        width: 100%;
     }
 }
 
