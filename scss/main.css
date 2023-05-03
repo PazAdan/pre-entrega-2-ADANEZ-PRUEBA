@@ -11,7 +11,7 @@
   background-color: rgb(205, 230, 205);
   flex-wrap: wrap;
   min-height: 20vh;
-  }
+}
 .header img {
   width: 140px;
 }
@@ -26,6 +26,7 @@
 }
 .header .nav ul {
   display: flex;
+  direction: column;
   list-style: none;
   width: 800px;
   justify-content: space-evenly;
@@ -42,7 +43,6 @@
   justify-content: center;
   align-items: center;
   min-height: 10vh;
-  min-width: 100vh;
   margin-top: 15px;
   padding: 15px;
 }
@@ -55,7 +55,6 @@
 
 .main {
   min-height: 70vh;
-  min-width: 100vh;
 }
 
 .main.index {
@@ -256,7 +255,6 @@ h2 {
   background-image: url(../recursos/foto-contactanos.webp);
   background-position: center;
   min-height: 70vh;
-  min-width: 100vh;
   padding: 50px;
   margin: 50px;
 }
@@ -286,7 +284,6 @@ h2 {
 .main-quienes-somos {
   background-image: url(../recursos/foto-quienes-somos.webp);
   min-height: 70vh;
-  min-width: 100vh;
   font-family: "Courier New", Courier, monospace;
   color: black;
   display: grid;
@@ -302,6 +299,9 @@ h2 {
   }
   .nav ul {
     width: 100px;
+  }
+  .footer {
+    width: 100%;
   }
 }
 @media (max-width: 1330px) {
